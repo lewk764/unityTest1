@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+Purpose:
+    Move bird object when spacebar is pressed
+*/
 public class BirdScript : MonoBehaviour
 {
     public Rigidbody2D myRigidbody; //Create a reference to the Rigidbody component of the bird object
